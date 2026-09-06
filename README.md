@@ -64,8 +64,8 @@ medical-voice-assistant/
 ├── README.md
 ├── .gitignore
 ├── medical_voice_assistant.ipynb
-└── .streamlit/
-    └── config.toml
+├── .env.example
+
 ```
 
 ## ⚙️ Installation
@@ -100,13 +100,13 @@ pip install -r requirements.txt
 Create:
 
 ```text
-.streamlit/secrets.toml
+.env
 ```
 
 Add:
 
-```toml
-OPENROUTER_API_KEY = "your_api_key_here"
+```text
+OPENROUTER_API_KEY = your_api_key_here
 ```
 
 > Never commit your API key to GitHub.
