@@ -1,0 +1,8 @@
+__pycache__/
+*.py[cod]
+.streamlit/secrets.toml
+.DS_Store
+.env
+.venv/
+*.mp3
+*.wav
